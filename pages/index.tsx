@@ -51,19 +51,19 @@ export default function Home() {
       <footer className={styles.footer}>
         <a href='https://www.linkedin.com/in/taojouet/'>
           <span className={styles.logo}>
-            <Image src="/linkedin-icon-2.svg" alt="Linkedin Logo" width={72} height={16} />
+            <Image src="/linkedin-icon-2.svg" alt="Linkedin Logo" width={108} height={24} />
           </span>
         </a>
 
-        <a href='https://www.linkedin.com/in/taojouet/'>
+        <a href='mailto: taojouet@gmail.com'>
           <span className={styles.logo}>
-            <Image src="/email-message-svgrepo-com.svg" alt="Email Logo" width={72} height={16} />
+            <Image src="/email-message-svgrepo-com.svg" alt="Email Logo" width={108} height={24} />
           </span>
         </a>
 
         <a href='https://www.github.com/taojoue/'>
           <span className={styles.logo}>
-            <Image src="/github-icon-1.svg" alt="GitHub Logo" width={72} height={16} />
+            <Image src="/github-icon-1.svg" alt="GitHub Logo" width={108} height={24} />
           </span>
         </a>
       </footer>
