@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Button from '@mui/material/Button';
 
 export default function Home() {
   return (
@@ -15,8 +16,17 @@ export default function Home() {
         {/* <div class="bg-fixed ..." style="background-image: url(public\photo_plussafe.jpg)"></div> */}
 
         <h1 className={styles.title}>
-          Bienvenue sur le site de Tao Jouet. Vous y retrouverez mon CV ainsi que divers projets sur lesquels j'ai travaillé.
+          Bienvenue sur le site de Tao Jouet. Vous y retrouverez mon CV ainsi que divers projets sur lesquels j'ai pu travailler.
         </h1>
+
+        <p className={styles.description}>
+          Avant toute chose je souahitait me présenter :
+
+          Je m'apelle Tao Jouet, j'ai 23 ans et je travaille actuellement pour l'entreprise Synox où je suis en charge de l'intégration des objets connectés.
+          Mon travail conciste en la mise en place d'algorithmes complexes permettant de rendre de la donnée brute en hexadécimal intéligible par tous.
+          Je développe aussi des solutions pour réaliser des tests automatisé sur ces décodes afin de controller leur bon fonctionnement.
+
+        </p>
 
         <p className={styles.description}>
           Vous retrouverez différentes catégories ci-dessous
@@ -44,8 +54,6 @@ export default function Home() {
             <p>Par ce qu'il n'y a pas que le travail dans la vie, voici quelques endroits où j'ai eu la chance de mettre les pieds 🥰</p>
           </a>
         </div>
-
-
       </main>
 
       <footer className={styles.footer}>

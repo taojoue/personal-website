@@ -1,11 +1,90 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import mrauku from '../public/Images/Travels/mrauku.jpg'
+import china from '../public/Images/Travels/china.jpg'
+import bagan from '../public/Images/Travels/bagan.png'
+import senegal_oriental from '../public/Images/Travels/senegal_oriental.jpg'
+import saloum from '../public/Images/Travels/saloum.jpg'
+import styles from '../styles/Travels.module.css'
 
 export default function Travels() {
     return (
         <div className={styles.container}>
-            travels
+            <Head>
+                <title>Tao Jouet</title>
+                <meta name="description" content="Site de Tao Jouet" />
+                {/* <link rel="icon" href="/favicon.ico" /> */}
+            </Head>
+
+            <main className={styles.main}>
+                <div className={styles.grid}>
+
+                    <a className={styles.card}>
+                        <div className='frame'>
+                            <Image src={mrauku} alt="loading..." />
+                            <div className='details'>
+                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className={styles.card}>
+                        <div className='frame'>
+                            <Image src={china} alt="loading..." />
+                            <div className='details'>
+                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className={styles.card}>
+                        <div className='frame'>
+                            <Image src={saloum} alt="loading..." />
+                            <div className='details'>
+                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className={styles.card}>
+                        <div className='frame'>
+                            <Image src={senegal_oriental} alt="loading..." />
+                            <div className='details'>
+                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a className={styles.card}>
+                        <div className='frame'>
+                            <Image src={bagan} alt="loading..." />
+                            <div className='details'>
+                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </main>
+
+            <footer className={styles.footer}>
+                <a href='https://www.linkedin.com/in/taojouet/'>
+                    <span className={styles.logo}>
+                        <Image src="/linkedin-icon-2.svg" alt="Linkedin Logo" width={108} height={24} />
+                    </span>
+                </a>
+
+                <a href='mailto: taojouet@gmail.com'>
+                    <span className={styles.logo}>
+                        <Image src="/email-message-svgrepo-com.svg" alt="Email Logo" width={108} height={24} />
+                    </span>
+                </a>
+
+                <a href='https://www.github.com/taojoue/'>
+                    <span className={styles.logo}>
+                        <Image src="/github-icon-1.svg" alt="GitHub Logo" width={108} height={24} />
+                    </span>
+                </a>
+            </footer>
         </div>
     );
 }
