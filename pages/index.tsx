@@ -50,8 +50,8 @@ export default function Home() {
           </a>
 
           <a href="/travels" className={styles.card}>
-            <h2>Mes voyages &rarr;</h2>
-            <p>Par ce qu'il n'y a pas que le travail dans la vie, voici quelques endroits où j'ai eu la chance de mettre les pieds 🥰</p>
+            <h2>Mes passions &rarr;</h2>
+            <p>Par ce qu'il n'y a pas que le travail dans la vie, voici quelques une de mes passions !</p>
           </a>
         </div>
       </main>
