@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import myAvatar from '../public/Images/Travels/mrauku.jpg';
-import Avatar from '@mui/material/Avatar';
 import styles from '../styles/Career.module.css'
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
@@ -39,6 +37,16 @@ export default function Creations() {
 
             <main className={styles.main}>
                 <Timeline position="alternate">
+                <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            2014
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Stage à l'INRIA - Département robotique</TimelineContent>
+                    </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
                             2017
@@ -58,6 +66,26 @@ export default function Creations() {
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>DUT Génie Electrique et Informatique Industrielle</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            2020
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Stage de fin de DUT à l'IES - Projet HUT : conception d'un espace immersif</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineOppositeContent color="text.secondary">
+                            Depuis 2020
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineDot />
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Alternance chez Synox - Responsable de l'intégration d'objets connectés</TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">

@@ -110,6 +110,11 @@
   margin-left: 0.5rem;
 }
 
+.li{
+  list-style: square;
+  padding-left: 40px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

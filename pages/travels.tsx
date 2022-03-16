@@ -57,16 +57,7 @@ export default function Travels() {
                             </div>
                         </div>
                     </a>
-
-                    <a className={styles.card}>
-                        <div className='frame'>
-                            <Image src={bagan} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
-                        </div>
-                    </a>
-
+                    
                     <a className={styles.card}>
                         <Carousel>
                             <div>
@@ -75,22 +66,17 @@ export default function Travels() {
 
                             </div>
                             <div>
-                                <img src="/2.png" alt="image2" />
+                                <Image src={saloum} alt="loading..." />
                                 <p className="legend">Image 2</p>
 
                             </div>
                             <div>
-                                <img src="/3.png" alt="image3" />
-                                <p className="legend">Image 3</p>
-
-                            </div>
-                            <div>
-                                <img src="/4.png" alt="image4" />
+                                <Image src={china} alt="loading..." />
                                 <p className="legend">Image 4</p>
 
                             </div>
                             <div>
-                                <img src="/5.png" alt="image5" />
+                                <Image src={senegal_oriental} alt="loading..." />
                                 <p className="legend">Image 5</p>
 
                             </div>

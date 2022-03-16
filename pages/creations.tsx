@@ -29,9 +29,9 @@ export default function Creations() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small" onClick="showDetails(eseanergy)">
-                                    Ce que j'ai fait &rarr;
-                                </Button>
+                                {/* <Button size="small" onClick={showDetails(eseanergy)}> */}
+                                Ce que j'ai fait &rarr;
+                                {/* </Button> */}
                             </CardActions>
                             <div id='eseanergy'>
                                 <CardContent>
@@ -51,23 +51,62 @@ export default function Creations() {
                     <div className={styles.card}>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
-                                <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
-                                    Word of the Day
-                                </Typography>
                                 <Typography variant="h5" component="div">
-                                    benevolent
-                                </Typography>
-                                <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                    adjective
-                                </Typography>
-                                <Typography variant="body2">
-                                    well meaning and kindly.
+                                    Intégration d'objets connectés
                                     <br />
-                                    {'"a benevolent smile"'}
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    Intégrations de plus d'une centaine d'objets connectés pour divers projets au 
+                                    moyen d'algorithmes de décodes complexes.
                                 </Typography>
                             </CardContent>
                             <CardActions>
                                 <Button size="small">Lien vers le repo !</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
+                                    Intégration de divers protocoles de communications
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    Mise en place de divers protocoles de communications afin d'y connecter des objets :
+                                    <ul className={styles.li}>
+                                        <li>MQTT</li>
+                                        <li>LoRaWAN</li>
+                                        <li>Sigfox</li>
+                                    </ul>
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Lien vers le repo !</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
+                                    Petite application mobile avec Ionic pour calculer des intérets cumulés
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    L'objectif de cette application était de me familiariser avec Ionic tout en apprennant à 
+                                    calculer des intérets cumulés. Pour cela j'ai appris les diverses technologies :
+                                    <ul className={styles.li}>
+                                        <li>Ionic</li>
+                                        <li>TypeScript</li>
+                                        <li>Angular</li>
+                                    </ul>
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" href='https://github.com/taojoue/CoumpoundIT' target="_blank">Lien vers le repo !</Button>
                             </CardActions>
                         </Card>
                     </div>
