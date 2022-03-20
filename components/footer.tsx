@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const footer = () => {
     return (
-        <div>
+        <div className={styles.footer}>
             <a href='https://www.linkedin.com/in/taojouet/'>
                 <span className={styles.logo}>
                     <Image src="/linkedin-icon-2.svg" alt="Linkedin Logo" width={108} height={24} />

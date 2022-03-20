@@ -52,6 +52,29 @@ export default function Creations() {
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
+                                    Intégration de divers protocoles de communications
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    Mise en place de divers protocoles de communications afin d'y connecter des objets :
+                                    <ul className={styles.li}>
+                                        <li>MQTT</li>
+                                        <li>LoRaWAN</li>
+                                        <li>Sigfox</li>
+                                        <li>ModBus</li>
+                                    </ul>
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Lien vers le repo !</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+                    
+                    <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
                                     Intégration d'objets connectés
                                     <br />
                                 </Typography>
@@ -70,29 +93,7 @@ export default function Creations() {
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Intégration de divers protocoles de communications
-                                    <br />
-                                </Typography>
-                                <Typography variant="body2" paddingTop="10px">
-                                    Mise en place de divers protocoles de communications afin d'y connecter des objets :
-                                    <ul className={styles.li}>
-                                        <li>MQTT</li>
-                                        <li>LoRaWAN</li>
-                                        <li>Sigfox</li>
-                                    </ul>
-                                </Typography>
-                            </CardContent>
-                            <CardActions>
-                                <Button size="small">Lien vers le repo !</Button>
-                            </CardActions>
-                        </Card>
-                    </div>
-
-                    <div className={styles.card}>
-                        <Card sx={{ minWidth: 275 }}>
-                            <CardContent>
-                                <Typography variant="h5" component="div">
-                                    Petite application mobile avec Ionic pour calculer des intérets cumulés
+                                    Application mobile avec Ionic pour calculer des intérets cumulés
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
@@ -107,6 +108,26 @@ export default function Creations() {
                             </CardContent>
                             <CardActions>
                                 <Button size="small" href='https://github.com/taojoue/CoumpoundIT' target="_blank">Lien vers le repo !</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
+                                    Intégration du LoRa Network Server Chirpstack à ce site
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    L'objectif est de connecter des objets à une gateway et de les visualiser ici. 
+                                    Pour celà j'ai décidé de mettre en place un LoRa Network Server et de rediriger 
+                                    les trames vers un système de queue afin de ne pas avoir de perte de données.
+                                    Je détaille toute l'architecture plus en détail si vous cliquez sur le lien ci-après.
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small">Voir les données en direct !</Button>
                             </CardActions>
                         </Card>
                     </div>
