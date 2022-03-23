@@ -16,11 +16,14 @@ export default function Skills() {
 
             <main className={styles.main}>
                 <div className="flex flex-row">
-                    <div className="basis-1/4">01</div>
-                    <div className="basis-1/4">02</div>
-                    <div className="basis-1/2">03</div>
+                    <div className={styles.card1}>01</div>
+                    <div className={styles.card2}>02</div>
                 </div>
 
+                <div className="flex flex-row">
+                    <div className={styles.card2}>03</div>
+                    <div className={styles.card1}>04</div>
+                </div>
             </main>
         </div>
     );
