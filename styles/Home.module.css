@@ -1,3 +1,10 @@
+/*
+  violet :
+    color: #d400e8;
+  vert :
+    color: #00ba91;
+*/
+
 .container {
   padding: 0 2rem;
 }
@@ -29,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #d400e8;
   text-decoration: none;
 }
 
@@ -92,7 +99,7 @@
 } */
 
 .card:hover h2{
-  color: #0070f3;
+  color: #00ba91;
 }
 
 .card h2 {

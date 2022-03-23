@@ -15,24 +15,11 @@ export default function Skills() {
             </Head>
 
             <main className={styles.main}>
-                <h1>Mes compétences</h1>
-
-                <Box sx={{ flexGrow: 1 }}>
-                    <Grid container spacing={2}>
-                        <Grid item xs={8} textAlign='center'>
-                            <p>xs=8</p>
-                        </Grid>
-                        <Grid item xs={4} textAlign='center'>
-                            <p>xs=4</p>
-                        </Grid>
-                        <Grid item xs={4} textAlign='center'>
-                            <p>xs=4</p>
-                        </Grid>
-                        <Grid item xs={8} textAlign='center' border-radius="10px" border="1px solid #eaeaea">
-                            <p>xs=8</p>
-                        </Grid>
-                    </Grid>
-                </Box>
+                <div className="flex flex-row">
+                    <div className="basis-1/4">01</div>
+                    <div className="basis-1/4">02</div>
+                    <div className="basis-1/2">03</div>
+                </div>
 
             </main>
         </div>
