@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import mrauku from '../public/Images/Travels/mrauku.jpg'
+import travelsLogo from '../public/Images/Logos/travel.svg'
 import china from '../public/Images/Travels/china.jpg'
 import bagan from '../public/Images/Travels/bagan.png'
 import senegal_oriental from '../public/Images/Travels/senegal_oriental.jpg'
 import saloum from '../public/Images/Travels/saloum.jpg'
-import styles from '../styles/Travels.module.css'
+import styles from '../styles/Passions.module.css'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -24,18 +24,26 @@ export default function Travels() {
 
                     <a className={styles.card}>
                         <div className='frame'>
-                            <Image src={mrauku} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
+                            <a href='/travels'>
+                                <Image src={travelsLogo} alt="loading..." className={styles.logo}/>
+                                <h2>Les voyages !</h2>
+                                <p>J'ai eu la chance de faire quelques voyages dans ma vie. Venez en découvrir quelques un en image ici 😊</p>
+                            </a>
                         </div>
                     </a>
 
+
                     <a className={styles.card}>
                         <div className='frame'>
-                            <Image src={china} alt="loading..." />
                             <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                                <h2>Le sport</h2>
+                                <p>Depuis petit j'ai toujours été sportif et ai eu la chance de pouvoir pratiquer dans pleins de diciplines différentes. Aujourd'hui je continu de faire du sport régulièrement :</p>
+                                <ul>
+                                    <li className={styles.li}>Course à pied</li>
+                                    <li className={styles.li}>Escalade</li>
+                                    <li className={styles.li}>Kite-Surf</li>
+                                    <li className={styles.li}>...</li>
+                                </ul>
                             </div>
                         </div>
                     </a>
@@ -57,7 +65,7 @@ export default function Travels() {
                             </div>
                         </div>
                     </a>
-                    
+
                     <a className={styles.card}>
                         <Carousel>
                             <div>
@@ -83,7 +91,7 @@ export default function Travels() {
                         </Carousel>
                     </a>
                 </div>
-            </main>
-        </div>
+            </main >
+        </div >
     );
 }
