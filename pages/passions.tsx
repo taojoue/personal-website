@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import travelsLogo from '../public/Images/Logos/travel.svg'
+import travelsLogo from '../public/Images/Logos/travel.png'
 import china from '../public/Images/Travels/china.jpg'
 import bagan from '../public/Images/Travels/bagan.png'
 import senegal_oriental from '../public/Images/Travels/senegal_oriental.jpg'
@@ -19,13 +19,17 @@ export default function Travels() {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
+            
+
             <main className={styles.main}>
                 <div className={styles.grid}>
 
                     <a className={styles.card}>
                         <div className='frame'>
                             <a href='/travels'>
-                                <Image src={travelsLogo} alt="loading..." className={styles.logo}/>
+                                <div style={{ position: 'relative', width: '50px', height: '50px' }}>
+                                    <Image src={travelsLogo} alt="loading..." layout="fill" objectFit="cover" />
+                                </div>
                                 <h2>Les voyages !</h2>
                                 <p>J'ai eu la chance de faire quelques voyages dans ma vie. Venez en découvrir quelques un en image ici 😊</p>
                             </a>

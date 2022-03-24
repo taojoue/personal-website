@@ -98,7 +98,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1670px) {
+@media screen and (max-width: 1200px) {
     .container {
         padding: 0px 20px;
     }

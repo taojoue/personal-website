@@ -4,12 +4,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    // screens: {
-    //   sm: '480px',
-    //   md: '768px',
-    //   lg: '976px',
-    //   xl: '1440px',
-    // },
     flexBasis: {
       '1/4': '25%',
       '2/4': '50%',
@@ -19,32 +13,10 @@ module.exports = {
     colors: {
       'blue': '#1fb6ff',
       'purple': '#d400e8',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#00ba91',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
-    },
-    extend: {
-      spacing: {
-        '128': '32rem',
-        '144': '36rem',
-        '1': '8px',
-        '2': '12px',
-        '3': '16px',
-        '4': '24px',
-        '5': '32px',
-        '6': '48px',
-      },
-      borderRadius: {
-        '4xl': '2rem',
-      }
     },
     container: {
       center: true
