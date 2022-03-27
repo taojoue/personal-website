@@ -25,40 +25,28 @@ export default function Travels() {
                     <a className={styles.card}>
                         <div className='frame'>
                             <Image src={mrauku} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
                         </div>
                     </a>
 
                     <a className={styles.card}>
                         <div className='frame'>
                             <Image src={china} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
                         </div>
                     </a>
 
                     <a className={styles.card}>
                         <div className='frame'>
                             <Image src={saloum} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
                         </div>
                     </a>
 
                     <a className={styles.card}>
                         <div className='frame'>
                             <Image src={senegal_oriental} alt="loading..." />
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
                         </div>
                     </a>
                     
-                    <a className={styles.card}>
+                    {/* <a className={styles.card}>
                         <Carousel>
                             <div>
                                 <Image src={bagan} alt="loading..." />
@@ -81,7 +69,7 @@ export default function Travels() {
 
                             </div>
                         </Carousel>
-                    </a>
+                    </a> */}
                 </div>
             </main>
         </div>

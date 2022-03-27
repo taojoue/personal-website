@@ -14,9 +14,6 @@ export default function Creations() {
                     <div className={styles.card}>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
-                                <Typography sx={{ fontSize: 14 }} color="text.primary" gutterBottom>
-                                    {/* Word of the Day */}
-                                </Typography>
                                 <Typography variant="h5" component="div">
                                     E-Seanergy
                                     <br />
@@ -29,18 +26,6 @@ export default function Creations() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                {/* <Button size="small" onClick={showDetails(eseanergy)}> */}
-                                Ce que j'ai fait &rarr;
-                                {/* </Button> */}
-                            </CardActions>
-                            <div id='eseanergy'>
-                                <CardContent>
-                                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
-                                        coucou
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                            <CardActions>
                                 <Button size="small" href='https://www.journaldunet.com/ebusiness/internet-mobile/1499181-emmanuel-mouton-synox/' target="_blank">
                                     Découvrez le projet !
                                 </Button>
@@ -52,7 +37,7 @@ export default function Creations() {
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Intégration de divers protocoles de communications
+                                    Utilisation de divers protocoles de communications
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
@@ -62,12 +47,10 @@ export default function Creations() {
                                         <li>LoRaWAN</li>
                                         <li>Sigfox</li>
                                         <li>ModBus</li>
+                                        <li>ZigBee</li>
                                     </ul>
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small">Lien vers le repo !</Button>
-                            </CardActions>
                         </Card>
                     </div>
                     
@@ -81,11 +64,11 @@ export default function Creations() {
                                 <Typography variant="body2" paddingTop="10px">
                                     Intégrations de plus d'une centaine d'objets connectés pour divers projets au 
                                     moyen d'algorithmes de décodes complexes.
+                                    <br/>
+                                    L'objectif de ce projet est d'intégrer des objets connectés divers pour rendre 
+                                    leur données intéligible pour le grand public.
                                 </Typography>
                             </CardContent>
-                            <CardActions>
-                                <Button size="small">Lien vers le repo !</Button>
-                            </CardActions>
                         </Card>
                     </div>
 
@@ -112,6 +95,25 @@ export default function Creations() {
                         </Card>
                     </div>
 
+                    {/* <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
+                                    Site web conçu dans le cadre d'un projet d'étude
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    Ce site web a été conçu dans l'objectif de répondre à un cahier des charges précis. Il est actuellement hébergé sur Heroku.
+                                    <br/>
+                                    
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" href='' target="_blank">Voir le site !</Button>
+                            </CardActions>
+                        </Card>
+                    </div> */}
+
                     <div className={styles.card}>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
@@ -127,7 +129,7 @@ export default function Creations() {
                                 </Typography>
                             </CardContent>
                             <CardActions>
-                                <Button size="small">Voir les données en direct !</Button>
+                                <Button size="small" href='/data'>Voir le projet !</Button>
                             </CardActions>
                         </Card>
                     </div>
