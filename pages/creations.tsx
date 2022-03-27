@@ -53,7 +53,7 @@ export default function Creations() {
                             </CardContent>
                         </Card>
                     </div>
-                    
+
                     <div className={styles.card}>
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
@@ -62,10 +62,10 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    Intégrations de plus d'une centaine d'objets connectés pour divers projets au 
+                                    Intégrations de plus d'une centaine d'objets connectés pour divers projets au
                                     moyen d'algorithmes de décodes complexes.
-                                    <br/>
-                                    L'objectif de ce projet est d'intégrer des objets connectés divers pour rendre 
+                                    <br />
+                                    L'objectif de ce projet est d'intégrer des objets connectés divers pour rendre
                                     leur données intéligible pour le grand public.
                                 </Typography>
                             </CardContent>
@@ -80,7 +80,7 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    L'objectif de cette application était de me familiariser avec Ionic tout en apprennant à 
+                                    L'objectif de cette application était de me familiariser avec Ionic tout en apprennant à
                                     calculer des intérets cumulés. Pour cela j'ai appris les diverses technologies :
                                     <ul className={styles.li}>
                                         <li>Ionic</li>
@@ -91,6 +91,23 @@ export default function Creations() {
                             </CardContent>
                             <CardActions>
                                 <Button size="small" href='https://github.com/taojoue/CoumpoundIT' target="_blank">Lien vers le repo !</Button>
+                            </CardActions>
+                        </Card>
+                    </div>
+
+                    <div className={styles.card}>
+                        <Card sx={{ minWidth: 275 }}>
+                            <CardContent>
+                                <Typography variant="h5" component="div">
+                                    Ce site web !
+                                    <br />
+                                </Typography>
+                                <Typography variant="body2" paddingTop="10px">
+                                    Avec ce site web je voulais faire état de mes compétences informatique et les rendre concrète. Pour cela j'ai décidé de rassembler un maximum de technologies que je maitrise. A ce stade le site est en évolution constante, c’est en le mettant à jour régulièrement que je compte travailler ma on assiduité et devenir encore meilleur. Pour cela je mets régulièrement à jour la « road map » du projet sur le repo github !
+                                </Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Button size="small" href='https://github.com/taojoue/personal-website' target="_blank">Lien vers le repo !</Button>
                             </CardActions>
                         </Card>
                     </div>
@@ -122,8 +139,8 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    L'objectif est de connecter des objets à une gateway et de les visualiser ici. 
-                                    Pour celà j'ai décidé de mettre en place un LoRa Network Server et de rediriger 
+                                    L'objectif est de connecter des objets à une gateway et de les visualiser ici.
+                                    Pour celà j'ai décidé de mettre en place un LoRa Network Server et de rediriger
                                     les trames vers un système de queue afin de ne pas avoir de perte de données.
                                     Je détaille toute l'architecture plus en détail si vous cliquez sur le lien ci-après.
                                 </Typography>

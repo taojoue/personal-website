@@ -9,6 +9,7 @@ import styles from '../styles/Passions.module.css'
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { Button, CardActions } from '@mui/material'
 
 export default function Travels() {
     return (
@@ -19,7 +20,7 @@ export default function Travels() {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
-            
+
 
             <main className={styles.main}>
                 <div className={styles.grid}>
@@ -33,6 +34,11 @@ export default function Travels() {
                                 <h2>Les voyages !</h2>
                                 <p>J'ai eu la chance de faire quelques voyages dans ma vie. Venez en découvrir quelques un en image ici 😊</p>
                             </a>
+                            <CardActions>
+                                <Button size="small" href='https://www.journaldunet.com/ebusiness/internet-mobile/1499181-emmanuel-mouton-synox/' target="_blank">
+                                    La gallery des mes voyages !
+                                </Button>
+                            </CardActions>
                         </div>
                     </a>
 
@@ -55,15 +61,8 @@ export default function Travels() {
                     <a className={styles.card}>
                         <div className='frame'>
                             <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <a className={styles.card}>
-                        <div className='frame'>
-                            <div className='details'>
-                                <p>J'ai pu faire pleins de rencontres exceptionnelles en Birmanie comme ce Boudha au milieu de la campgne !</p>
+                                <h2>Le bricolage</h2>
+                                <p>J'ai eu la chance d'avoir un père très bricoleur qui m’a transmis cette passion. Cela m’a permis de découvrir un monde de débrouillardise et de me forger un caractère ainsi que des qualités similaires.</p>
                             </div>
                         </div>
                     </a>
