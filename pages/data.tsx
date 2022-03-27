@@ -1,18 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import myAvatar from './avatar.jpg'
-import styles from '../styles/Skills.module.css'
-import { Box, Grid } from '@mui/material';
-import { theme } from '@nextui-org/react';
+import styles from '../styles/Data.module.css'
 
-import js from '../public/Images/Logos/javascript.svg'
-import c from '../public/Images/Logos/c.svg'
-import html from '../public/Images/Logos/html5.svg'
-import ionic from '../public/Images/Logos/ionic.png'
-import css from '../public/Images/Logos/css.svg'
-import python from '../public/Images/Logos/python.svg'
-import docker from '../public/Images/Logos/docker.svg'
-import rust from '../public/Images/Logos/rust.png'
 
 export default function Skills() {
     return (
@@ -24,7 +12,21 @@ export default function Skills() {
             </Head>
 
             <main className={styles.main}>
-                coucou
+                <div className={styles.card}>
+                    <h1 className={styles.title}>En cours de réalisation !</h1>
+                    <br></br>
+                    <p>
+                        L'objectif de ce projet est de connecter une gateway LoRaWAN à ce site en utilisant le LNS opensource Chirpstack.
+                        Je souhaiterais pouvoir monitorer mon "potager" : température, humidité, etc. 
+                        <br/>
+                        Pour cela je vais utiliser les différentes tecnologies suivantes :
+                    </p>
+                    <ul className={styles.ul}>
+                        <li className={styles.li}>LoRaWAN : pour la transmition des données</li>
+                        <li>MQTT : pour la gestion des données</li>
+                        <li>Files d'attente : pour éviter la perte de données</li>
+                    </ul>
+                </div>
             </main>
         </div>
     );

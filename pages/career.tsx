@@ -17,7 +17,7 @@ export default function Creations() {
                             2014
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>Stage à l'INRIA - Département robotique</TimelineContent>
@@ -27,7 +27,7 @@ export default function Creations() {
                             2017
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>BAC Scientifique (SVT) Option ISN au Lycée Français Jean Mermoz de Dakar</TimelineContent>
@@ -37,7 +37,7 @@ export default function Creations() {
                             2020
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>DUT Génie Electrique et Informatique Industrielle</TimelineContent>
@@ -47,7 +47,7 @@ export default function Creations() {
                             2020
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>Stage de fin de DUT à l'IES - Projet HUT : conception d'un espace immersif</TimelineContent>
@@ -57,7 +57,7 @@ export default function Creations() {
                             Depuis 2020
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>Alternance chez Synox - Responsable de l'intégration d'objets connectés</TimelineContent>
@@ -67,7 +67,7 @@ export default function Creations() {
                             2021
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
@@ -79,7 +79,7 @@ export default function Creations() {
                             Aujourd'hui
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot />
+                            <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
                         <TimelineContent>
