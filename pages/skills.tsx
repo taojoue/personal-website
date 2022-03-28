@@ -35,7 +35,7 @@ export default function Skills() {
                         <Image src={html} alt="loading..." />
                     </div>
                     <div className={styles.card2}>
-                        HTML : J'ai principalement appris en autodidacte comme tous les autres langages lié au web. J’ai pu réaliser mon premier site internet étant plus jeune ce qui m’a donné l’envie de travailler dans l’informatique.
+                        HTML : J&apos;ai principalement appris en autodidacte comme tous les autres langages lié au web. J’ai pu réaliser mon premier site internet étant plus jeune ce qui m’a donné l’envie de travailler dans l’informatique.
                     </div>
                 </div>
 

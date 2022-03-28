@@ -21,7 +21,7 @@ export default function Creations() {
                                 <Typography variant="body2" paddingTop="10px">
                                     Mise en place d’une passerelle Zigbee dans le cadre du projet E-Seanergy. E-Seanergy est un
                                     programme de R&D mené sur trois ans avec le laboratoire de recherches IES engineering.
-                                    L'objectif est de concevoir et de développer un service global de mesures en milieux marin,
+                                    L&apos;objectif est de concevoir et de développer un service global de mesures en milieux marin,
                                     lagunaire et portuaire.
                                 </Typography>
                             </CardContent>
@@ -41,7 +41,7 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    Mise en place de divers protocoles de communications afin d'y connecter des objets :
+                                    Mise en place de divers protocoles de communications afin d&apos;y connecter des objets :
                                     <ul className={styles.li}>
                                         <li>MQTT</li>
                                         <li>LoRaWAN</li>
@@ -58,14 +58,14 @@ export default function Creations() {
                         <Card sx={{ minWidth: 275 }}>
                             <CardContent>
                                 <Typography variant="h5" component="div">
-                                    Intégration d'objets connectés
+                                    Intégration d&apos;objets connectés
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    Intégrations de plus d'une centaine d'objets connectés pour divers projets au
-                                    moyen d'algorithmes de décodes complexes.
+                                    Intégrations de plus d&apos;une centaine d&apos;objets connectés pour divers projets au
+                                    moyen d&apos;algorithmes de décodes complexes.
                                     <br />
-                                    L'objectif de ce projet est d'intégrer des objets connectés divers pour rendre
+                                    L&apos;objectif de ce projet est d&apos;intégrer des objets connectés divers pour rendre
                                     leur données intéligible pour le grand public.
                                 </Typography>
                             </CardContent>
@@ -80,8 +80,8 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    L'objectif de cette application était de me familiariser avec Ionic tout en apprennant à
-                                    calculer des intérets cumulés. Pour cela j'ai appris les diverses technologies :
+                                    L&apos;objectif de cette application était de me familiariser avec Ionic tout en apprennant à
+                                    calculer des intérets cumulés. Pour cela j&apos;ai appris les diverses technologies :
                                     <ul className={styles.li}>
                                         <li>Ionic</li>
                                         <li>TypeScript</li>
@@ -103,7 +103,7 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    Avec ce site web je voulais faire état de mes compétences informatique et les rendre concrète. Pour cela j'ai décidé de rassembler un maximum de technologies que je maitrise. A ce stade le site est en évolution constante, c’est en le mettant à jour régulièrement que je compte travailler ma on assiduité et devenir encore meilleur. Pour cela je mets régulièrement à jour la « road map » du projet sur le repo github !
+                                    Avec ce site web je voulais faire état de mes compétences informatique et les rendre concrète. Pour cela j&apos;ai décidé de rassembler un maximum de technologies que je maitrise. A ce stade le site est en évolution constante, c’est en le mettant à jour régulièrement que je compte travailler ma on assiduité et devenir encore meilleur. Pour cela je mets régulièrement à jour la « road map » du projet sur le repo github !
                                 </Typography>
                             </CardContent>
                             <CardActions>
@@ -139,10 +139,10 @@ export default function Creations() {
                                     <br />
                                 </Typography>
                                 <Typography variant="body2" paddingTop="10px">
-                                    L'objectif est de connecter des objets à une gateway et de les visualiser ici.
-                                    Pour celà j'ai décidé de mettre en place un LoRa Network Server et de rediriger
+                                    L&apos;objectif est de connecter des objets à une gateway et de les visualiser ici.
+                                    Pour celà j&apos;ai décidé de mettre en place un LoRa Network Server et de rediriger
                                     les trames vers un système de queue afin de ne pas avoir de perte de données.
-                                    Je détaille toute l'architecture plus en détail si vous cliquez sur le lien ci-après.
+                                    Je détaille toute l&apos;architecture plus en détail si vous cliquez sur le lien ci-après.
                                 </Typography>
                             </CardContent>
                             <CardActions>

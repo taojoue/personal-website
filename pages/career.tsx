@@ -20,7 +20,7 @@ export default function Creations() {
                             <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent>Stage à l'INRIA - Département robotique</TimelineContent>
+                        <TimelineContent>Stage à l&apos;INRIA - Département robotique</TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
@@ -50,7 +50,7 @@ export default function Creations() {
                             <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent>Stage de fin de DUT à l'IES - Projet HUT : conception d'un espace immersif</TimelineContent>
+                        <TimelineContent>Stage de fin de DUT à l&apos;IES - Projet HUT : conception d&apos;un espace immersif</TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
@@ -60,7 +60,7 @@ export default function Creations() {
                             <TimelineDot variant="outlined" />
                             <TimelineConnector />
                         </TimelineSeparator>
-                        <TimelineContent>Alternance chez Synox - Responsable de l'intégration d'objets connectés</TimelineContent>
+                        <TimelineContent>Alternance chez Synox - Responsable de l&apos;intégration d&apos;objets connectés</TimelineContent>
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
@@ -76,7 +76,7 @@ export default function Creations() {
                     </TimelineItem>
                     <TimelineItem>
                         <TimelineOppositeContent color="text.secondary">
-                            Aujourd'hui
+                            Aujourd&apos;hui
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineDot variant="outlined" />
