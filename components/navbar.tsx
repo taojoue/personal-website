@@ -11,19 +11,19 @@ const Navbar = () => {
     <div className={styles.container}>
       <ul className={styles.list}>
         <li className={styles.listItem}>
-          <Link href="/">Acceuil</Link>
+          <Link href="/" passHref>Acceuil</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/career">Mon parcours</Link>
+          <Link href="/career" passHref>Mon parcours</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/skills">Mes compétences</Link>
+          <Link href="/skills" passHref>Mes compétences</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/creations">Mes créations</Link>
+          <Link href="/creations" passHref>Mes créations</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/passions">Mes passions</Link>
+          <Link href="/passions" passHref>Mes passions</Link>
         </li>
       </ul>
       <div className={styles.hamburger} onClick={() => setOpen(!open)} >
@@ -33,16 +33,16 @@ const Navbar = () => {
       </div>
       <ul onClick={() => setOpen(false)} className={styles.menu} style={{ right: open ? "0px" : "-50vw" }}>
         <li className={styles.menuItem}>
-          <Link href="/career">Mon parcours</Link>
+          <Link href="/career" passHref>Mon parcours</Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/skills">Mes compétences</Link>
+          <Link href="/skills" passHref>Mes compétences</Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/creations">Mes créations</Link>
+          <Link href="/creations" passHref>Mes créations</Link>
         </li>
         <li className={styles.menuItem}>
-          <Link href="/passions">Mes passions</Link>
+          <Link href="/passions" passHref>Mes passions</Link>
         </li>
       </ul>
     </div>

@@ -36,28 +36,28 @@ export default function Home() {
         <h4 className={styles.title}>&darr;</h4>
 
         <div className={styles.grid}>
-          <Link href="/career">
+          <Link href="/career" passHref>
             <div className={styles.card}>
               <h2>Mon parcours &rarr;</h2>
               <p>Venez découvrir mon parcours professionnel et personnel !</p>
             </div>
           </Link>
 
-          <Link href="/skills">
+          <Link href="/skills" passHref>
             <div className={styles.card}>
               <h2>Mes compétences &rarr;</h2>
               <p>Ici je vous présente mes compétences acquises en autodidacte ou via une formation.</p>
             </div>
           </Link>
 
-          <Link href="/creations">
+          <Link href="/creations" passHref>
             <div className={styles.card}>
               <h2>Mes conceptions &rarr;</h2>
               <p>Je vous propose de d&apos;explorer les conceptions sur lesquelles j&apos;ai pu avoir la chance de travailler et mettre en oeuvre ce que j&apos;ai appris.</p>
             </div>
           </Link>
 
-          <Link href="/passions">
+          <Link href="/passions" passHref>
             <div className={styles.card}>
               <h2>Mes passions &rarr;</h2>
               <p>Par ce qu&apos;il n&apos;y a pas que le travail dans la vie, voici quelques une de mes passions !</p>

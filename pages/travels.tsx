@@ -38,7 +38,7 @@ export default function Travels() {
 
                     <a className={styles.image}>
                         <div className='frame'>
-                            <Image src="/../public/Images/Travels/china.jpg" alt="loading china..." width="200%" height="200%" />
+                            <Image src={china} alt="loading china..." />
                         </div>
                     </a>
 
