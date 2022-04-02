@@ -1,6 +1,4 @@
-import Head from 'next/head'
-import styles from '../styles/Data.module.css'
-
+import Head from 'next/head';
 
 export default function Skills() {
     return (
@@ -11,8 +9,8 @@ export default function Skills() {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
-            <main className={styles.main}>
-                <div className='container max-w-5xl border border-gray-400 rounded-lg  text-center'>
+            <main className='min-h-screen flex-1 p-1 text-center'>
+                <div className='container max-w-5xl border border-gray-400/25 rounded-lg drop-shadow-md p-1 text-center'>
                     <h1 className='text-2xl'>
                         En cours de réalisation !
                     </h1>
@@ -23,13 +21,14 @@ export default function Skills() {
                         <br />
                         Pour cela je vais utiliser les différentes tecnologies suivantes :
                     </p>
-                    <ul className='list-inside list-disc text-base'>
+                    <ul className='list-inside list-disc text-base m-1'>
                         <li>LoRaWAN : pour la transmition des données</li>
                         <li>MQTT : pour la gestion des données</li>
                         <li>Files d&apos;attente : pour éviter la perte de données</li>
                     </ul>
-
                 </div>
+
+
             </main>
         </div>
     );
