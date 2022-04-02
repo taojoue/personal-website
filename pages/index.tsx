@@ -3,10 +3,24 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import Button from '@mui/material/Button';
+import Script from 'next/script';
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-TEDM345T56"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TEDM345T56'); 
+        `}
+      </Script>
       <Head>
         <title>Tao Jouet</title>
         <meta name="description" content="Site de Tao Jouet" />
