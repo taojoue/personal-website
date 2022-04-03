@@ -21,11 +21,11 @@ export default function Travels() {
                         <div className='frame'>
                             <div>
                                 <h2>Les voyages !</h2>
-                                <p>J&apos;ai eu la chance de faire quelques voyages dans ma vie. Venez en découvrir quelques un en image ici 😊</p>
+                                <p>J&apos;ai eu la chance de faire quelques voyages dans ma vie. Venez en découvrir quelques un en images 😊</p>
                             </div>
                             <CardActions>
-                                <Button size="small" href='/travels' target="_blank">
-                                    La gallery des mes voyages !
+                                <Button size="small" href='/travels'>
+                                    La gallerie des mes voyages !
                                 </Button>
                             </CardActions>
                         </div>
@@ -36,7 +36,10 @@ export default function Travels() {
                         <div className='frame'>
                             <div className='details'>
                                 <h2>Le sport</h2>
-                                <p>Depuis petit j&apos;ai toujours été sportif et ai eu la chance de pouvoir pratiquer dans pleins de diciplines différentes. Aujourd&apos;hui je continu de faire du sport régulièrement :</p>
+                                <p>
+                                    Sportif depuis la plus tendre enfance j&apos;ai eu la chance de pouvoir pratiquer beaucoup de diciplines différentes.
+                                    Je continu de faire du sport régulièrement :
+                                </p>
                                 <ul className={styles.ul}>
                                     <li>Course à pied</li>
                                     <li>Escalade</li>
@@ -51,7 +54,10 @@ export default function Travels() {
                         <div className='frame'>
                             <div className='details'>
                                 <h2>Le bricolage</h2>
-                                <p>J&apos;ai eu la chance d&apos;avoir un père très bricoleur qui m’a transmis cette passion. Cela m’a permis de découvrir un monde de débrouillardise et de me forger un caractère ainsi que des qualités similaires.</p>
+                                <p>
+                                    Issu d&apos;une famille de bricoleurs j&apos;ai pu évoluer très tôt dans un atelier et traviller de mes mains. Cela m’a permis de découvrir un monde de débrouillardise,
+                                    de me positionner en recherche de solution techniques et d&apos;utiliser de nombreux outils.
+                                </p>
                             </div>
                         </div>
                     </a>

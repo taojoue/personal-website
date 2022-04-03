@@ -1,9 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
+import Head from 'next/head';
+import Image from 'next/image';
+import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 import Button from '@mui/material/Button';
 import Script from 'next/script';
+
+import avatar from '../public/avatar.jpg';
 
 export default function Home() {
   return (
@@ -30,19 +32,21 @@ export default function Home() {
       <main className={styles.main}>
         {/* <div class="bg-fixed ..." style="background-image: url(public\photo_plussafe.jpg)"></div> */}
 
-        <h1 className={styles.title}>
-          Bienvenue sur le site de Tao Jouet. Vous y retrouverez mon CV ainsi que divers projets sur lesquels j&apos;ai pu travailler.
+        <h1 className='text-5xl m-6'>
+          Bienvenue sur mon site. Faisons connaisance :
         </h1>
 
-        <p className={styles.description}>
-          Avant toute chose je souhaitait me présenter :
-          <br />
-          Je m&apos;apelle Tao Jouet, j&apos;ai 23 ans et je travaille actuellement pour l&apos;entreprise Synox où je suis en charge de l&apos;intégration des objets connectés.
-          Mon travail conciste en la mise en place d&apos;algorithmes complexes permettant de rendre de la donnée brute en hexadécimal intéligible par tous.
-          Je développe aussi des solutions pour réaliser des tests automatisé sur ces décodes afin de controller leur bon fonctionnement et travaille sur
-          différents projets professionnels et personnels.
-
-        </p>
+        <div className='grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 xl:gap-x-8'>
+          <div className="col-start-2">
+            <Image src={avatar} className=" rounded-lg" />
+          </div>
+          <div className='col-span-3 text-lg'>
+            Je m&apos;apelle Tao Jouet, j&apos;ai 23 ans et je travaille actuellement pour l&apos;entreprise Synox où je suis en charge de l&apos;intégration des objets connectés.
+            Mon travail consiste en la mise en place d&apos;algorithmes complexes permettant de rendre de la donnée brute des objets intélligible par tous.
+            Je développe aussi des solutions pour réaliser des tests automatisé sur ces décodes afin de controller leur bon fonctionnement et travaille sur
+            différents projets aussi bien professionnels que personnels.
+          </div>
+        </div>
 
         <p className={styles.description}>
           Voici les différentes catégories de ce site

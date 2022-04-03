@@ -19,7 +19,7 @@ export default function Skills() {
                         L&apos;objectif de ce projet est de connecter une gateway LoRaWAN à ce site en utilisant le LNS opensource Chirpstack.
                         Je souhaiterais pouvoir monitorer mon &quot;potager&quot; : température, humidité, etc.
                         <br />
-                        Pour cela je vais utiliser les différentes tecnologies suivantes :
+                        Pour cela je vais utiliser les différentes technologies suivantes :
                     </p>
                     <ul className='list-inside list-disc text-base m-1'>
                         <li>LoRaWAN : pour la transmition des données</li>
