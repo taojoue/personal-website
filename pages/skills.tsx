@@ -31,7 +31,7 @@ export default function Skills() {
                         <Image src={html} alt="loading..." />
                     </div>
                     <div className={styles.card2}>
-                        HTML : J'ai principalement appris en autodidacte comme la plupart des autres langages lié au web. J’ai pu réaliser mon premier site internet étant plus jeune ce qui m’a donné l’envie de travailler dans l’informatique.
+                        HTML : J&apos;ai principalement appris en autodidacte comme la plupart des autres langages lié au web. J&apos;ai pu réaliser mon premier site internet étant plus jeune ce qui m’a donné l’envie de travailler dans l’informatique.
                     </div>
                 </div>
 
@@ -58,7 +58,7 @@ export default function Skills() {
                 {/* // Right side */}
                 <div className="flex flex-row">
                     <div className={styles.card2}>
-                        NextJS : Récemment j’ai commencé à utiliser NextJS qui est un framework très puissant doté d’un environnement intuitif et est maintenu par l'organisme qu’est Vercel. De plus, l’intégration d’une base de données avec Prisma est très simple et extrêmement puissant.
+                        NextJS : Récemment j’ai commencé à utiliser NextJS qui est un framework très puissant doté d’un environnement intuitif et est maintenu par l&apos;organisme qu’est Vercel. De plus, l’intégration d’une base de données avec Prisma est très simple et extrêmement puissant.
                     </div>
                     <div className={styles.card1}>
                         <Image src={nextjs} alt="loading..." />
@@ -91,7 +91,7 @@ export default function Skills() {
                         <Image src={docker} alt="loading..." />
                     </div>
                     <div className={styles.card2}>
-                        Docker : J’ai commencé à me familiariser avec Docker dans le cadre d’un projet professionnel et j'ai été séduit par sa puissance et sa facilité d’utilisation. J'aimerais faire tourner mon site en utilisant Docker couplé à Traefik dans une version future.
+                        Docker : J’ai commencé à me familiariser avec Docker dans le cadre d’un projet professionnel et j&apos;ai été séduit par sa puissance et sa facilité d’utilisation. J&apos;aimerais faire tourner mon site en utilisant Docker couplé à Traefik dans une version future.
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@ export default function Skills() {
                 {/* // Right side */}
                 <div className="flex flex-row">
                     <div className={styles.card2}>
-                        Ionic : Il y a quelques années, j'ai voulu créer une application mobile, pour cela je me suis tourné vers le « Cross Plateforme » et ai décidé d’utiliser Ionic, Angular et TypeScript. Ce fut une expérience très enrichissante.
+                        Ionic : Il y a quelques années, j&apos;ai voulu créer une application mobile, pour cela je me suis tourné vers le « Cross Plateforme » et ai décidé d’utiliser Ionic, Angular et TypeScript. Ce fut une expérience très enrichissante.
                     </div>
                     <div className={styles.card1}>
                         <Image src={ionic} alt="loading..." />
